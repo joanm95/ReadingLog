@@ -14,6 +14,8 @@
 		4E13A8A62DC82BD500E7A0F8 /* ReadingLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8A52DC82BD500E7A0F8 /* ReadingLogTests.swift */; };
 		4E13A8B02DC82BD500E7A0F8 /* ReadingLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8AF2DC82BD500E7A0F8 /* ReadingLogUITests.swift */; };
 		4E13A8B22DC82BD500E7A0F8 /* ReadingLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8B12DC82BD500E7A0F8 /* ReadingLogUITestsLaunchTests.swift */; };
+		4E13A8BF2DC82C7900E7A0F8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8BE2DC82C7900E7A0F8 /* Book.swift */; };
+		4E13A8C12DC82D9800E7A0F8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4E13A8AB2DC82BD500E7A0F8 /* ReadingLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E13A8AF2DC82BD500E7A0F8 /* ReadingLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingLogUITests.swift; sourceTree = "<group>"; };
 		4E13A8B12DC82BD500E7A0F8 /* ReadingLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E13A8BE2DC82C7900E7A0F8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				4E13A8932DC82BD300E7A0F8 /* ReadingLogApp.swift */,
+				4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */,
 				4E13A8952DC82BD300E7A0F8 /* ContentView.swift */,
+				4E13A8BE2DC82C7900E7A0F8 /* Book.swift */,
 				4E13A8972DC82BD500E7A0F8 /* Assets.xcassets */,
 				4E13A8992DC82BD500E7A0F8 /* ReadingLog.entitlements */,
 				4E13A89A2DC82BD500E7A0F8 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				4E13A8962DC82BD300E7A0F8 /* ContentView.swift in Sources */,
 				4E13A8942DC82BD300E7A0F8 /* ReadingLogApp.swift in Sources */,
+				4E13A8BF2DC82C7900E7A0F8 /* Book.swift in Sources */,
+				4E13A8C12DC82D9800E7A0F8 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
