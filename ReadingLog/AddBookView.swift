@@ -16,7 +16,138 @@ struct AddBookView: View {
     @State private var genre = "Fantasy"
     @State private var review = ""
     
-    let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
+    let genres = [
+        // Fiction
+        "Action/Adventure fiction",
+        "Children’s fiction",
+        "Classic fiction",
+        "Contemporary fiction",
+        
+        // Fantasy
+        "Dark fantasy",
+        "Fairy tales",
+        "Fantasy",
+        "Heroic fantasy",
+        "High fantasy",
+        "Historical fantasy",
+        "Low fantasy",
+        "Magical realism",
+        "Mythic fantasy",
+        "Urban fantasy",
+        
+        // Graphic Novel
+        "Graphic novel",
+        
+        // Historical fiction
+        "Historical fiction",
+        
+        // Horror
+        "Body horror",
+        "Comedy horror",
+        "Gothic horror",
+        "Horror",
+        "Lovecraftian/Cosmic horror",
+        "Paranormal horror",
+        "Post-apocalyptic horror",
+        "Psychological horror",
+        "Quiet horror",
+        "Slasher",
+        
+        // LGBTQ+
+        "LGBTQ+",
+        
+        // Literary fiction
+        "Literary fiction",
+        
+        // Mystery
+        "Caper",
+        "Cozy mystery",
+        "Gumshoe/Detective mystery",
+        "Historical mystery",
+        "Howdunnits",
+        "Locked room mystery",
+        "Mystery",
+        "Noir",
+        "Procedural/Hard-boiled mystery",
+        "Supernatural mystery",
+        
+        // New Adult
+        "New adult",
+        
+        // Romance
+        "Contemporary romance",
+        "Dark romance",
+        "Erotic romance",
+        "Fantasy romance (Romantasy)",
+        "Gothic romance",
+        "Historical romance",
+        "Paranormal romance",
+        "Regency",
+        "Romantic comedy",
+        "Romantic suspense",
+        "Romance",
+        "Sci-fi romance",
+        
+        // Satire
+        "Satire",
+        
+        // Science Fiction
+        "Apocalyptic sci-fi",
+        "Colonization sci-fi",
+        "Hard sci-fi",
+        "Military sci-fi",
+        "Mind uploading sci-fi",
+        "Parallel world sci-fi",
+        "Science fiction",
+        "Soft sci-fi",
+        "Space opera",
+        "Space western",
+        "Steampunk",
+        
+        // Short story
+        "Short story",
+        
+        // Thriller
+        "Action thriller",
+        "Conspiracy thriller",
+        "Disaster thriller",
+        "Espionage thriller",
+        "Forensic thriller",
+        "Historical thriller",
+        "Legal thriller",
+        "Paranormal thriller",
+        "Psychological thriller",
+        "Religious thriller",
+        "Thriller",
+        
+        // Western
+        "Western",
+        
+        // Women’s Fiction
+        "Women’s fiction",
+        
+        // Young Adult
+        "Young adult",
+        
+        // Nonfiction
+        "Art & photography",
+        "Autobiography/Memoir",
+        "Biography",
+        "Essays",
+        "Food & drink",
+        "History",
+        "How-To/Guides",
+        "Humanities & social sciences",
+        "Humor",
+        "Parenting",
+        "Philosophy",
+        "Religion & spirituality",
+        "Science & technology",
+        "Self-help",
+        "Travel",
+        "True crime"
+    ]
+
     
     var body: some View {
         NavigationStack {
