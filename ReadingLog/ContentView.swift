@@ -17,18 +17,22 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
+            Spacer()
+                .frame(minHeight: 10, maxHeight: 50)
             Text("Joan's Goal for 2025: 25 Books!")
                 .font(.title)
                 .fontWeight(.semibold)
-                .foregroundColor(Color.purple)
+               // .foregroundColor(Color.purple)
                 .multilineTextAlignment(.center)
             Spacer()
                 .frame(minHeight: 10, maxHeight: 50)
             Text("Number of Books Read: \(books.count)")
                 .font(.headline)
                 .fontWeight(.bold)
-                .foregroundColor(Color.green)
+                //.foregroundColor(Color.green)
                 .multilineTextAlignment(.center)
+            Spacer()
+                .frame(minHeight: 10, maxHeight: 50)
             
             
             List {
@@ -36,11 +40,11 @@ struct ContentView: View {
                     NavigationLink(value: book) {
                         HStack {
                             ListRatingView(rating: book.rating)
-                                .font(.title3)
+                                .font(.headline)
 
                             VStack(alignment: .leading) {
                                 Text(book.title)
-                                    .font(.headline)
+                                    .font(.subheadline)
                                 Text(book.author)
                                     .foregroundStyle(.secondary)
                             }
@@ -50,6 +54,9 @@ struct ContentView: View {
             }
             
                 .navigationTitle("My Reading Log")
+                .navigationDestination(for: Book.self) { book in
+                    BookDetailView(book: book)
+                }
                .toolbar {
                    ToolbarItem(placement: .topBarTrailing) {
                        Button("Add Book", systemImage: "plus") {
