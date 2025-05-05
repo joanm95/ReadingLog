@@ -17,6 +17,7 @@
 		4E13A8BF2DC82C7900E7A0F8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8BE2DC82C7900E7A0F8 /* Book.swift */; };
 		4E13A8C12DC82D9800E7A0F8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */; };
 		4E13A8C32DC832CE00E7A0F8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8C22DC832CE00E7A0F8 /* RatingView.swift */; };
+		4E13A8C52DC83B1900E7A0F8 /* ListRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A8C42DC83B1900E7A0F8 /* ListRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4E13A8BE2DC82C7900E7A0F8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		4E13A8C22DC832CE00E7A0F8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		4E13A8C42DC83B1900E7A0F8 /* ListRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4E13A8932DC82BD300E7A0F8 /* ReadingLogApp.swift */,
 				4E13A8C02DC82D9800E7A0F8 /* AddBookView.swift */,
 				4E13A8952DC82BD300E7A0F8 /* ContentView.swift */,
+				4E13A8C42DC83B1900E7A0F8 /* ListRatingView.swift */,
 				4E13A8BE2DC82C7900E7A0F8 /* Book.swift */,
 				4E13A8972DC82BD500E7A0F8 /* Assets.xcassets */,
 				4E13A8992DC82BD500E7A0F8 /* ReadingLog.entitlements */,
@@ -273,6 +276,7 @@
 				4E13A8BF2DC82C7900E7A0F8 /* Book.swift in Sources */,
 				4E13A8C32DC832CE00E7A0F8 /* RatingView.swift in Sources */,
 				4E13A8C12DC82D9800E7A0F8 /* AddBookView.swift in Sources */,
+				4E13A8C52DC83B1900E7A0F8 /* ListRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

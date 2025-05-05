@@ -23,12 +23,32 @@ struct ContentView: View {
                 .foregroundColor(Color.purple)
                 .multilineTextAlignment(.center)
             Spacer()
-                .frame(minHeight: 50, maxHeight: 100)
+                .frame(minHeight: 10, maxHeight: 50)
             Text("Number of Books Read: \(books.count)")
                 .font(.headline)
                 .fontWeight(.bold)
                 .foregroundColor(Color.green)
                 .multilineTextAlignment(.center)
+            
+            
+            List {
+                ForEach(books) { book in
+                    NavigationLink(value: book) {
+                        HStack {
+                            ListRatingView(rating: book.rating)
+                                .font(.title3)
+
+                            VStack(alignment: .leading) {
+                                Text(book.title)
+                                    .font(.headline)
+                                Text(book.author)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                    }
+                }
+            }
+            
                 .navigationTitle("My Reading Log")
                .toolbar {
                    ToolbarItem(placement: .topBarTrailing) {
